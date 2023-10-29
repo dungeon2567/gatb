@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `My Mantine Site`,
   },
   graphqlTypegen: true,
-  plugins: ["gatsby-plugin-postcss"],
+  plugins: ["gatsby-plugin-postcss", "gatsby-plugin-resolve-src"],
 };
 
 export default config;
